@@ -1,0 +1,36 @@
+name: 🐛 Report a Typo or Error in Materials
+description: Report a typo, calculation bug, or broken link in sheets or notes.
+title: "[Correction]: <Brief description of the typo/error>"
+labels: ["bug", "materials-fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the course materials clean and accurate!
+
+  - type: input
+    id: file-location
+    attributes:
+      label: File & Location
+      description: Where is the mistake located?
+      placeholder: "e.g., tutorials/week-02/practice-sheet.pdf, Question 4"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content (Error)
+      description: What is currently written?
+      placeholder: "Quote or describe the error here..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested Correction
+      description: What should it say instead?
+      placeholder: "Provide the correct value, formula, or wording..."
+    validations:
+      required: true

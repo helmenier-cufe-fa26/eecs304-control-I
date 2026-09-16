@@ -1,0 +1,52 @@
+name: 💬 Ask a Tutorial Question
+description: Ask for clarification on tutorial notes, sheets, or concepts.
+title: "[Question]: <Brief summary of your question>"
+labels: ["question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! Please check the relevant tutorial notes, video walkthrough, and existing open/closed issues before posting.
+  
+  - type: dropdown
+    id: week
+    attributes:
+      label: Which week or topic does this relate to?
+      options:
+        - Week 01
+        - Week 02
+        - Week 03
+        - Week 04
+        - Week 05
+        - Week 06
+        - Term Project
+        - General / Other
+    validations:
+      required: true
+
+  - type: input
+    id: reference
+    attributes:
+      label: Specific Reference
+      description: Mention the specific file, slide/page number, or sheet problem.
+      placeholder: "e.g., Sheet 2, Problem 3(b) or Tutorial 4 Notes, Page 7"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Explain what you are trying to solve or understand.
+      placeholder: "Describe the specific concept or step that is unclear..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried so far?
+      description: Showing your current reasoning helps us point you in the right direction.
+      placeholder: "I tried applying formula X, but got Y instead of Z because..."
+    validations:
+      required: false
