@@ -10,7 +10,7 @@ This repository contains tutorial notes, problem sheets, project specifications,
 
 - **Instructors:** Dr. Ragia Badr - Dr. Nasr Antar
 - **Teaching Assistant:** Hassan El-Menier
-- **TA Office Hours:** You can directly contact me on WhatsApp or through email (h.elmenier@eng.cu.edu.eg)
+- **TA Office Hours:** You can directly contact me on WhatsApp (@h_elmenier) or through email (h.elmenier@eng.cu.edu.eg)
 
 ---
 
