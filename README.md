@@ -60,6 +60,15 @@ The course project specification, guidelines, and milestones are maintained in t
 
 ---
 
+## 💬 Feedback & Suggestions
+
+Your feedback is essential to improving tutorial explanations, practice problems, and course materials. 
+
+Whether you found an explanation particularly helpful or think something could be clarified:
+- 📝 **[Fill out the Tutorial Feedback Form](https://forms.cloud.microsoft/r/n9TxNPH2ys)** *(Anonymous by default)*
+
+---
+
 ## 📄 License & Academic Integrity
 
 All materials here are provided for educational use by enrolled students. Please respect university academic integrity policies regarding solutions and original project work.
