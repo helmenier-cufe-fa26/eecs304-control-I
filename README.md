@@ -49,8 +49,8 @@ The course project specification, guidelines, and milestones are maintained in t
 - 📄 **[Project Specification](project/project-specification.pdf)**
 - 🎬 **Project Walkthrough:** [YouTube Video Link](https://youtu.be/eGYfC3JslEA)
 - ⏰ **Key Deadlines:**
-  - Team Creation: *[End of week 11]*
-  - Final Submission: *[End of week 12]*
+  - Team Formation: *[Saturday, 5th of December, 2026 at 11:59 PM.]*
+  - Final Submission: *[Saturday, 12th of December, 2026 at 10:00 PM.]*
 
 ---
 
